@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "3452466",
+      "name": "Savvy Blue Magic Guap Gummy 25mg 1-Pack",
+      "brand": "Savvy",
+      "category": "Gummies",
+      "strain": "Indica",
+      "strain_type": "Indica",
+      "price": "7",
+      "discounted_price": 3.5,
+      "image_url": "https://skoop-general.s3.us-east-1.amazonaws.com/n8n_image_gen%2Fundefined-1773196700024.png",
+      "vendor": "Verano"
+    },
+    {
+      "id": "3465870",
+      "name": "Lost Farm Juicy Peach x GSC Sherbet Live Resin Gummies 10mg x 10-Pack",
+      "brand": "Lost Farm",
+      "category": "Gummies",
+      "strain": "Hybrid",
+      "strain_type": "Hybrid",
+      "price": "30",
+      "discounted_price": 15,
+      "image_url": "https://skoop-general.s3.us-east-1.amazonaws.com/n8n_image_gen%2Fundefined-1773196879298.png",
+      "vendor": "Garden Society"
+    },
+    {
+      "id": "3475123",
+      "name": "Orange Malt Flower 7g",
+      "brand": "URBNJ",
+      "category": "Whole Flower",
+      "strain": "Hybrid",
+      "strain_type": "Hybrid",
+      "price": "65",
+      "discounted_price": 32.5,
+      "image_url": "https://leaflogixmedia.blob.core.windows.net/product-image/ce1aabe2-d086-4462-91ad-8f70ef4c5913.jpg",
+      "vendor": "LoveGrow Company, LLC"
+    }
+  ]
+}

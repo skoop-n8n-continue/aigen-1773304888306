@@ -1,0 +1,60 @@
+{
+  "template_id": "qr-deal-drops-v1",
+  "name": "Quality Roots — Deal Drops",
+  "created_at": "2026-03-12T00:00:00Z",
+  "version": "1.0.0",
+
+  "theme": {
+    "style": "sports-broadcast-cannabis",
+    "description": "Bold, high-energy sports-broadcast aesthetic with dark forest green and electric lime. Each product is presented like an MVP athlete stepping into the spotlight — dramatic entrance, price reveal, golden sale price slam.",
+    "colors": ["#0b1e10", "#7ed856", "#f0c429", "#ffffff", "#0d2218"],
+    "mood": "energetic, premium, bold, sports, deal-forward",
+    "tags": ["dispensary", "cannabis", "sale", "gummies", "flower", "quality-roots", "sports", "deals"]
+  },
+
+  "capabilities": {
+    "products_per_cycle": 1,
+    "cycles_through_all_products": true,
+    "shows_discount_percent": true,
+    "shows_original_price": true,
+    "shows_sale_price": true,
+    "shows_strain_type": true,
+    "shows_brand": true,
+    "shows_category": true
+  },
+
+  "animation": {
+    "cycle_duration_seconds": 10.5,
+    "fps": 30,
+    "entrance_duration": 3.5,
+    "idle_duration": 5.5,
+    "exit_duration": 1.5,
+    "uses_plugins": ["SplitText", "DrawSVGPlugin", "CustomEase", "MotionPathPlugin"],
+    "effects": [
+      "flash-entrance",
+      "radial-burst-lines",
+      "split-text-stagger",
+      "drawsvg-strikethrough",
+      "elastic-badge-bounce",
+      "sale-price-slam",
+      "particle-system",
+      "hex-frame-rotation",
+      "infinite-ticker"
+    ]
+  },
+
+  "assets": {
+    "background": "https://skoop-dev-code-agent.s3.us-east-1.amazonaws.com/n8n-continue%2Faigen-1773304888306%2Fassets%2Fbackground-1773305710402.png",
+    "sale_badge": "https://skoop-dev-code-agent.s3.us-east-1.amazonaws.com/n8n-continue%2Faigen-1773304888306%2Fassets%2Fsale_badge-1773305735071.png",
+    "foreground_plants": "https://skoop-dev-code-agent.s3.us-east-1.amazonaws.com/n8n-continue%2Faigen-1773304888306%2Fassets%2Fforeground_plants-1773305805608.png",
+    "fonts": ["Barlow Condensed", "Barlow"]
+  },
+
+  "technical": {
+    "resolution": "1920x1080",
+    "performance": "optimized",
+    "browser_compatibility": "chrome_latest",
+    "non_interactive": true,
+    "loops_indefinitely": true
+  }
+}
